@@ -1,0 +1,10 @@
+% Test de Asociatividad
+% Pide al usuario tres numeros (a, b, c) y calculamos (a+b)+c y a+(b+c)
+disp('Test de Asociatividad')
+a = input('Dame un numero a: ')
+b = input('Dame un numero b: ')
+c = input('Dame un numero c: ')
+disp('El valor de a+(b+c) es ')
+disp(a+(b+c))
+disp('El valor de (a+b)+c es ')
+disp((a+b)+c)
